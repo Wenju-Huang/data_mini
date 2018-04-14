@@ -1,0 +1,5 @@
+frequence of PassLocation attribute
+    Type Description                     Count                   Percent
+                left                     60501                     36.19%
+              middle                     38992                     23.33%
+               right                     67675                     40.48%

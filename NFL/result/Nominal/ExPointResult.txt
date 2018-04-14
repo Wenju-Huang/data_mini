@@ -1,0 +1,6 @@
+frequence of ExPointResult attribute
+    Type Description                     Count                   Percent
+             Aborted                         7                      0.07%
+             Blocked                        81                      0.80%
+                Made                      9850                     97.43%
+              Missed                       172                      1.70%

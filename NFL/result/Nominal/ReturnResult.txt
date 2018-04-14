@@ -1,0 +1,5 @@
+frequence of ReturnResult attribute
+    Type Description                     Count                   Percent
+          Fair Catch                      5552                     30.44%
+           Touchback                     11685                     64.07%
+           Touchdown                      1001                      5.49%

@@ -1,0 +1,7 @@
+frequence of qtr attribute
+    Type Description                     Count                   Percent
+                   1                     89176                     21.87%
+                   2                    112317                     27.55%
+                   3                     90682                     22.24%
+                   4                    112641                     27.63%
+                   5                      2872                      0.70%

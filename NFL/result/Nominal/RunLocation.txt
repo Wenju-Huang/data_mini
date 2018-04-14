@@ -1,0 +1,5 @@
+frequence of RunLocation attribute
+    Type Description                     Count                   Percent
+                left                     43157                     36.11%
+              middle                     32821                     27.46%
+               right                     43532                     36.43%

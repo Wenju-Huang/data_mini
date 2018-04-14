@@ -1,0 +1,6 @@
+frequence of down attribute
+    Type Description                     Count                   Percent
+                   1                    138878                     40.08%
+                   2                    104089                     30.04%
+                   3                     67398                     19.45%
+                   4                     36169                     10.44%

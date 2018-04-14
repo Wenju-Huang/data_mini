@@ -1,0 +1,5 @@
+frequence of RunGap attribute
+    Type Description                     Count                   Percent
+                 end                     31265                     35.76%
+               guard                     27074                     30.97%
+              tackle                     29089                     33.27%

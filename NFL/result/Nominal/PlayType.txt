@@ -1,0 +1,17 @@
+frequence of PlayType attribute
+    Type Description                     Count                   Percent
+         End of Game                      1973                      0.48%
+         Extra Point                     10063                      2.47%
+          Field Goal                      8928                      2.19%
+            Half End                        40                      0.01%
+             Kickoff                     23403                      5.74%
+             No Play                     21414                      5.25%
+                Pass                    159353                     39.09%
+                Punt                     22003                      5.40%
+            QB Kneel                      3530                      0.87%
+         Quarter End                      4914                      1.21%
+                 Run                    120831                     29.64%
+                Sack                     10649                      2.61%
+               Spike                       640                      0.16%
+             Timeout                     16206                      3.98%
+  Two Minute Warning                      3741                      0.92%

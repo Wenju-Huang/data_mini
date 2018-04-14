@@ -1,0 +1,79 @@
+frequence of PenaltyType attribute
+    Type Description                     Count                   Percent
+          Chop Block                         6                      0.04%
+            Clipping                         4                      0.02%
+Clipping, 15 yards, enforced at GB 27. Green Bay challenged the fumble ruling, and the play was REVERSED. A.Rodgers pass incomplete short right [A.Curry]. PENALTY on OAK-L.Houston, Clipping                         1                      0.01%
+Defensive 12 On-field                       298                      1.81%
+Defensive Delay of Game                        31                      0.19%
+   Defensive Holding                      1490                      9.07%
+Defensive Holding, 1 yard, enforced at KC 2 - No Play. PENALTY on KC-M.Peters, Unsportsmanlike Conduct                         1                      0.01%
+   Defensive Offside                      1524                      9.28%
+Defensive Offside, 5 yards, enforced at JAC 49 - No Play. Green Bay challenged the pass completion ruling, and the play was REVERSED. B.Gabbert pass incomplete deep right to J.Blackmon. PENALTY on GB-R.Pickett, Defensive Offside                         1                      0.01%
+Defensive Pass Interference                       590                      3.59%
+Defensive Pass Interference, 12 yards, enforced at KC 26 - No Play. The Replay Official reviewed the spot of a foul ruling, and the play was REVERSED. (Shotgun) A.Smith pass short right intended for D.Robinson INTERCEPTED by J.Jenkins at KC 36. J.Jenkins pushed ob at KC 30 for 6 yards (D.Thomas). PENALTY on NYG-J.Jenkins, Defensive Pass Interference                         1                      0.01%
+       Delay of Game                      1196                      7.28%
+    Delay of Kickoff                         1                      0.01%
+    Disqualification                         4                      0.02%
+        Encroachment                       526                      3.20%
+Face Mask (15 Yards)                        93                      0.57%
+Face Mask (15 Yards), 15 yards, enforced between downs. The Replay Assistant challenged the runner broke the plane ruling, and the play was REVERSED. P.Thomas right guard to ATL 1 for 9 yards (W.Moore). PENALTY on ATL-W.Moore, Face Mask (15 Yards)                         1                      0.01%
+Fair Catch Interference                         2                      0.01%
+         False Start                      5284                     32.17%
+        Horse Collar                         2                      0.01%
+ Horse Collar Tackle                        29                      0.18%
+         Illegal Bat                         2                      0.01%
+Illegal Blindside Block                        10                      0.06%
+Illegal Block Above the Waist                       245                      1.49%
+Illegal Block Above the Waist, 5 yards, enforced at SF 10. Penalty on SF-B.Miller, Illegal Block Above the Waist, declined. PENALTY on SF, Unsportsmanlike Conduct                         1                      0.01%
+     Illegal Contact                       556                      3.38%
+   Illegal Crackback                         1                      0.01%
+   Illegal Formation                       473                      2.88%
+Illegal Forward Pass                        69                      0.42%
+        Illegal Kick                         1                      0.01%
+      Illegal Motion                       114                      0.69%
+ Illegal Onside Kick                         1                      0.01%
+    Illegal Peelback                         1                      0.01%
+   Illegal Procedure                         1                      0.01%
+Illegal Receiver Pass                         3                      0.02%
+       Illegal Shift                       210                      1.28%
+Illegal Substitution                       106                      0.65%
+  Illegal Touch Kick                        65                      0.40%
+  Illegal Touch Pass                        56                      0.34%
+Illegal Use of Hands                       525                      3.20%
+       Illegal Wedge                         7                      0.04%
+Ineligible Downfield Kick                        86                      0.52%
+Ineligible Downfield Pass                       131                      0.80%
+Intentional Grounding                        27                      0.16%
+Invalid Fair Catch Signal                        13                      0.08%
+Kickoff Out of Bounds                         2                      0.01%
+             Leaping                         4                      0.02%
+            Leverage                         5                      0.03%
+           Low Block                         7                      0.04%
+Neutral Zone Infraction                       980                      5.97%
+Offensive 12 On-field                        71                      0.43%
+   Offensive Holding                       722                      4.40%
+Offensive Holding, 0 yards, enforced at MIA 30. PENALTY on SD-S.Ajirotutu, Disqualification                         1                      0.01%
+Offensive Holding, 10 yards, enforced at PIT 28 - No Play. PENALTY on PIT-W.Colon, Unsportsmanlike Conduct                         1                      0.01%
+   Offensive Offside                        35                      0.21%
+Offensive Pass Interference                        54                      0.33%
+Offensive Pass Interference, 10 yards, enforced at BAL 21 - No Play. PENALTY on BAL-D.Mason, Unsportsmanlike Conduct                         1                      0.01%
+Offside on Free Kick                       177                      1.08%
+       Personal Foul                        57                      0.35%
+Personal Foul, 15 yards, enforced at NYJ 32. PENALTY on NYJ-W.Colon, Disqualification, 9 yards, enforced between downs. PENALTY on NYJ-D.Ferguson, Disqualification                         1                      0.01%
+Personal Foul, 15 yards, enforced between downs. The Replay Official reviewed the pass completion ruling, and the play was REVERSED. (Shotgun) A.Smith pass incomplete short middle to T.Kelce. PENALTY on SD-M.Te'o, Unnecessary Roughness                         1                      0.01%
+Personal Foul, 2 yards, enforced at OAK 4. Oakland challenged the incomplete pass ruling, and the play was REVERSED. B.Gradkowski pass incomplete short right. PENALTY on OAK-C.Carlisle, Personal Foul                         1                      0.01%
+Player Out of Bounds on Punt                        90                      0.55%
+ Roughing the Kicker                         2                      0.01%
+ Roughing the Passer                        99                      0.60%
+Roughing the Passer, 6 yards, enforced at TEN 12 - No Play. PENALTY on TEN-B.Orakpo, Unsportsmanlike Conduct, 3 yards, enforced between downs. PENALTY on TEN-B.Orakpo, Unsportsmanlike Conduct                         1                      0.01%
+Running Into the Kicker                        72                      0.44%
+     Short Free Kick                         2                      0.01%
+            Taunting                        11                      0.07%
+            Tripping                         8                      0.05%
+Unnecessary Roughness                       180                      1.10%
+Unnecessary Roughness, 15 yards, enforced at PIT 33. The Replay Assistant challenged the fumble ruling, and the play was REVERSED. (Shotgun) E.Manuel pass incomplete short left. PENALTY on PIT-S.McLendon, Unnecessary Roughness                         1                      0.01%
+Unnecessary Roughness, 2 yards, enforced at PHI 5. PENALTY on PHI-A.Samuel, Delay of Game                         1                      0.01%
+Unnecessary Roughness, 3 yards, enforced at SF 7 - No Play. PENALTY on SF-D.Whitner, Unsportsmanlike Conduct                         1                      0.01%
+Unsportsmanlike Conduct                        48                      0.29%
+Unsportsmanlike Conduct, 6 yards, enforced at STL 11. PENALTY on STL-K.Langford, Disqualification                         1                      0.01%
+Unsportsmanlike Conduct, 9 yards, enforced at STL 18. PENALTY on STL-D.Stewart, Unsportsmanlike Conduct                         1                      0.01%

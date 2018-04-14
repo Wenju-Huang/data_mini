@@ -1,0 +1,5 @@
+frequence of PassLength attribute
+    Type Description                     Count                   Percent
+                  20                         1                      0.00%
+                Deep                     32438                     19.40%
+               Short                    134729                     80.59%

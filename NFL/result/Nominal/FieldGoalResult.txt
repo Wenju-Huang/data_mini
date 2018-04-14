@@ -1,0 +1,5 @@
+frequence of FieldGoalResult attribute
+    Type Description                     Count                   Percent
+             Blocked                       205                      2.26%
+                Good                      7582                     83.70%
+             No Good                      1272                     14.04%
