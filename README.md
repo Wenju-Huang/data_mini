@@ -170,6 +170,7 @@
 ##### 数据可视化
 * 绘制数据直方图  
 在数值属性'Number of Existing Stories'; 'Number of Proposed Stories'; 'Estimated Cost'; 'Revised Cost'; 'Existing Units'; 'Proposed Units'的直方图和qq图如下：
+
 <img src="https://github.com/Wenju-Huang/data_mini/raw/master/SanBuilding/result/Number/raw_graph.PNG" height="300" width="400" /><img src="https://github.com/Wenju-Huang/data_mini/raw/master/SanBuilding/result/Number/raw_qq.PNG" height="300" width="400" />
 
 从直方图可以看出六个数据都不像均正态分布。属性'Number of Existing Stories'; 'Number of Proposed Stories';呈现泊松分布。属性'Estimated Cost'; 'Revised Cost'; 'Existing Units'; 'Proposed Units'的分布集中在最小值处。 从 qq 图也可以判定其这六个属性都不是正态分布，因为在q图中，数据没有分布在一条直线附近。
@@ -179,6 +180,7 @@
 [箱形图-快速识别离群值](https://blog.csdn.net/qq_39303465/article/details/79221254)
 
 数值属性的盒图如下：
+
 /><img src="https://github.com/Wenju-Huang/data_mini/raw/master/SanBuilding/result/Number/raw_box.PNG" height="300" width="400" />
 
 从上图可以看出可以看出这六个属性的离散值都比较大。
@@ -194,18 +196,23 @@
 在可视化缺失值处理中，我们同样是选择属性的直方图来比较。
 - 将缺失部分剔除  
 剔除掉缺失值的属性的直方图如下所示：  
+
 <img src="https://github.com/Wenju-Huang/data_mini/raw/master/SanBuilding/result/Number/raw_graph.PNG" height="300" width="400" >  
 
 - 用最高频率值来填补缺失值  
 用最高频率值来填补缺失值的直方图如下所示。  
+
 <img src="https://github.com/Wenju-Huang/data_mini/raw/master/SanBuilding/result/Number/filled_by_max_graph.PNG" height="300" width="400" >  
+
 对比剔除缺失值的情况可发现，用最高频率值填补后，最高频的属性的频数变得更多，其直方图会更高。也就是说本填补方法的直方图的最高值比剔除缺失值的方法高，而直方图的其他部分和剔除的方法一样。  
 
 - 通过相关属性来填补缺失值  
 通过相关属性来填补缺失的效果如下图所示  
+
 <img src="https://github.com/Wenju-Huang/data_mini/raw/master/SanBuilding/result/Number/filled_by_attribute_graph.PNG" height="300" width="400" >  
 
 - 通过数据对象之间的相似性来填补缺失值  
 
 <img src="https://github.com/Wenju-Huang/data_mini/raw/master/SanBuilding/result/Number/2filled_by_similarity_graph.PNG" height="300" width="400" >
+
 从上面结果可以看到，用相关属性和对象相似性来填补缺失值后，数据分布与原来数据根本基本一直，说明这种填补方法不会改变数据的分布，比用最高频率的方法跟可靠。
