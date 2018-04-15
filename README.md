@@ -6,7 +6,7 @@
 * MATLAB2017a
 * Linux 16.04
 ### 代码目录
-* NFL
+* NFL  
 数据集 NFL Play-by-Play 2009-2017的代码和结果
 > - main.m 
 主程序
@@ -14,7 +14,7 @@
 填补数据缺失值，有三种方法（1）最高频值替代（2）属性相关关系（3）对象相似性
 > - visualization.m
 数据可视化，用于绘制直方图、QQ图、盒图
-* SanBuilding
+* SanBuilding  
 数据集 San Francisco Building Permits 的代码和结果
 > - main.m 
 主程序
@@ -98,35 +98,23 @@
 从上图可以看出可以看出 ExpPts、HomewPpre 和 AwaywPp 的离散值比较小，EPA,airEPA,yacEPA的离散值比较大。
 
 #### 数据缺失的处理
-1 分析数据缺失的原因
+1  分析数据缺失的原因  
 数据缺失的原因是多方面的，常见的缺失情况有：
 * 信息暂时无法获取。例如在医疗数据库中，并非所有病人的所有临床检验结果都能在给定的时间内得到，就致使一部分属性值空缺出来。
 * 信息被遗漏。可能是因为输入时认为不重要、忘记填写了或对数据理解错误而遗漏，也可能是由于数据采集设备的故障、存储介质的故障、传输媒体的故障、一些人为因素等原因而丢失。
 * 有些对象的某个或某些属性是不可用的。如一个未婚者的配偶姓名、一个儿童的固定收入状况等
 
-2 缺失值处理
-在可视化缺失值处理中，我们同样是选择'ExpPts','EPA','airEPA','yacEPA','Home_WP_pre','Away_WP_pre' 这五个属性的直方图来比较。其余的可视化图见[NFL/result/Number](https://github.com/Wenju-Huang/data_mini/tree/master/NFL/result/Number/)文件夹。
-
-- 将缺失部分剔除
-
-剔除掉缺失值的属性的直方图如下所示：
-
-<img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_orignal/histogram_5.jpg" height="300" width="400" >
-
-- 用最高频率值来填补缺失值
-
-用最高频率值来填补缺失值的直方图如下所示。
-
-<img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_filledbymaxium/histogram_5.jpg" height="300" width="400" >
-
-对比剔除缺失值的情况可发现，用最高频率值填补后，最高频的属性的频数变得更多，其直方图会更高。也就是说本填补方法的直方图的最高值比剔除缺失值的方法高，而直方图的其他部分和剔除的方法一样。
-
+2  缺失值处理  
+在可视化缺失值处理中，我们同样是选择'ExpPts','EPA','airEPA','yacEPA','Home_WP_pre','Away_WP_pre' 这五个属性的直方图来比较。其余的可视化图见[NFL/result/Number](https://github.com/Wenju-Huang/data_mini/tree/master/NFL/result/Number/)文件夹。  
+- 将缺失部分剔除  
+剔除掉缺失值的属性的直方图如下所示：  
+<img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_orignal/histogram_5.jpg" height="300" width="400" >  
+- 用最高频率值来填补缺失值  
+用最高频率值来填补缺失值的直方图如下所示。  
+<img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_filledbymaxium/histogram_5.jpg" height="300" width="400" >  
+对比剔除缺失值的情况可发现，用最高频率值填补后，最高频的属性的频数变得更多，其直方图会更高。也就是说本填补方法的直方图的最高值比剔除缺失值的方法高，而直方图的其他部分和剔除的方法一样。  
 - 通过相关属性来填补缺失值  
-
-通过相关属性来填补缺失的效果如下图所示
-
-<img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_filledbyattributes/histogram_5.jpg" height="300" width="400" >
-
-- 通过数据对象之间的相似性来填补缺失值
-
+通过相关属性来填补缺失的效果如下图所示  
+<img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_filledbyattributes/histogram_5.jpg" height="300" width="400" >  
+- 通过数据对象之间的相似性来填补缺失值  
 <img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_filledbysimilarity/histogram_5.jpg" height="300" width="400" >
