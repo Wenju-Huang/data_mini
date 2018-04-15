@@ -35,7 +35,7 @@
   |         Timeout              |       16206               |       3.98%|
   |Two Minute Warning               |       3741                |      0.92%|
   
-  其他标称属性的取值的频数见[NFL/result/Nominal](https://github.com/Wenju-Huang/data_mini/tree/master/NFL/result/Nominal)。在计算标称属性的过程中，由于有些标称属性的取值过多（像日期）造成统计困难，并且统计出来的频率也接近于零。对于这些标称属性，当其取值大于1000时，我们剔除不统计。
+  其他标称属性的取值的频数见[NFL/result/Nominal](https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Nominal)。在计算标称属性的过程中，由于有些标称属性的取值过多（像日期）造成统计困难，并且统计出来的频率也接近于零。对于这些标称属性，当其取值大于1000时，我们剔除不统计。
 
 经过初步分析，数据集中的数值属性有：
 >'TimeUnder'; 'TimeSecs'; 'PlayTimeDiff'; 'yrdln'; 'yrdline100'; 'ydstogo';'ydsnet';'Yards.Gained';'AirYards';'YardsAfterCatch';'FieldGoalDistance';'Penalty.Yards';'PosTeamScore';'DefTeamScore';'ScoreDiff';'AbsScoreDiff';'posteam_timeouts_pre';'HomeTimeouts_Remaining_Pre';'AwayTimeouts_Remaining_Pre';'HomeTimeouts_Remaining_Post';'AwayTimeouts_Remaining_Post';'No_Score_Prob';'Opp_Field_Goal_Prob';'Opp_Safety_Prob';'Opp_Touchdown_Prob';'Field_Goal_Prob';'Safety_Prob';'Touchdown_Prob';'ExPoint_Prob';'TwoPoint_Prob';'ExpPts';'EPA';'airEPA';'yacEPA';'Home_WP_pre';'Away_WP_pre';'Home_WP_post';'Away_WP_post';'Win_Prob';'WPA';'airWPA';'yacWPA'
@@ -55,9 +55,13 @@
 |AirYards|84.00|-70.00|3.26401|0.00|0.00,4.00|0.00|
 |YardsAfterCatch|90.00|-81.00|1.25260|0.00000|0.00000,0.00000|0.00000|
 
-其余属性的统计摘要见[/NFL/result/Number/number_statistics/Data_abstract_of_attribute.txt](https://github.com/Wenju-Huang/data_mini/tree/master/NFL/result/Number/number_statistics/Data_abstract_of_attribute.txt)文件
+其余属性的统计摘要见
+[/NFL/result/Number/number_statistics/Data_abstract_of_attribute.txt](https://github.com/Wenju-Huang/data_mini/tree/master/NFL/result/Number/number_statistics/Data_abstract_of_attribute.txt)文件
 ##### 数据可视化
-* 绘制数据直方图
-其中，在数值属性'ExpPts','EPA','airEPA','yacEPA','Home_WP_pre','Away_WP_pre'的直方图如下：
+* 绘制数据直方图  
+其中，在数值属性'ExpPts','EPA','airEPA','yacEPA','Home_WP_pre','Away_WP_pre'的直方图即qq图如下：
+<img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_orignal/histogram_5.jpg" height="300" width="400" /><img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_orignal/qqplot_5.jpg" height="300" width="400" />
 
-![](https://github.com/Wenju-Huang/data_mini/tree/master/NFL/result/Number/number_orignal/histogram_5.jpg)
+从上图可以看出 ExpPts、EPA、airEPA 和 yacEPA 均接近正态分布，并且均值大概都在 0 附近，HomewPpre 和 AwaywPpre 的分布类似，类似均匀分布，但是
+在最大值和最小值附近分布较为密集。 从 qq 图也可以判定其前四者更像正态分布，因为在q图中，数据分布近似地在一条直线附近。其余属性的直方图和qq图见
+[NFL/result/Number/number_orignal](https://github.com/Wenju-Huang/data_mini/tree/master/NFL/result/Number/number_orignal/)
