@@ -108,19 +108,20 @@
 在可视化缺失值处理中，我们同样是选择'ExpPts','EPA','airEPA','yacEPA','Home_WP_pre','Away_WP_pre' 这五个属性的直方图来比较。其余的可视化图见[NFL/result/Number](https://github.com/Wenju-Huang/data_mini/tree/master/NFL/result/Number/)文件夹。
 
 - 将缺失部分剔除
-
 剔除掉缺失值的属性的直方图如下所示：
+
 <img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_orignal/histogram_5.jpg" height="300" width="400" >
 
 - 用最高频率值来填补缺失值
-
 用最高频率值来填补缺失值的直方图如下所示。对比剔除缺失值的情况可发现，用最高频率值填补后，最高频的属性的频数变得更多，其直方图会更高。也就是说本填补方法的直方图的最高值比剔除缺失值的方法高，而直方图的其他部分和剔除的方法一样。
-<img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_filledbymaxium/histogram_5.jpg" height="300" width="400" >最高频率值来填补缺失值后的直方图
+
+<img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_filledbymaxium/histogram_5.jpg" height="300" width="400" >
 
 - 通过相关属性来填补缺失值
-
 通过相关属性来填补缺失的效果如下图所示
+
 <img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_filledbyattributes/histogram_5.jpg" height="300" width="400" >
 
 - 通过数据对象之间的相似性来填补缺失值
+
 <img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_filledbysimilarity/histogram_5.jpg" height="300" width="400" >
