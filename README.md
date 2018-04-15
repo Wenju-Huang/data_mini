@@ -59,9 +59,37 @@
 [/NFL/result/Number/number_statistics/Data_abstract_of_attribute.txt](https://github.com/Wenju-Huang/data_mini/tree/master/NFL/result/Number/number_statistics/Data_abstract_of_attribute.txt)文件
 ##### 数据可视化
 * 绘制数据直方图  
-其中，在数值属性'ExpPts','EPA','airEPA','yacEPA','Home_WP_pre','Away_WP_pre'的直方图即qq图如下：
+其中，在数值属性'ExpPts','EPA','airEPA','yacEPA','Home_WP_pre','Away_WP_pre'的直方图和qq图如下：
 <img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_orignal/histogram_5.jpg" height="300" width="400" /><img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_orignal/qqplot_5.jpg" height="300" width="400" />
 
-从上图可以看出 ExpPts、EPA、airEPA 和 yacEPA 均接近正态分布，并且均值大概都在 0 附近，HomewPpre 和 AwaywPpre 的分布类似，类似均匀分布，但是
+从直方图可以看出 ExpPts、EPA、airEPA 和 yacEPA 均接近正态分布，并且均值大概都在 0 附近，HomewPpre 和 AwaywPpre 的分布类似，类似均匀分布，但是
 在最大值和最小值附近分布较为密集。 从 qq 图也可以判定其前四者更像正态分布，因为在q图中，数据分布近似地在一条直线附近。其余属性的直方图和qq图见
 [NFL/result/Number/number_orignal](https://github.com/Wenju-Huang/data_mini/tree/master/NFL/result/Number/number_orignal/)
+
+* 绘制盒图
+
+>盒图（英文：Box plot）是一种用作显示一组数据分散情况资料的统计图。因型状如盒子而得名。在各种领域也经常被使用，常见于品质管理，快速识别异常值。关于盒图的详细说明见
+[箱形图-快速识别离群值](https://blog.csdn.net/qq_39303465/article/details/79221254)
+
+其中，在数值属性'ExpPts','EPA','airEPA','yacEPA','Home_WP_pre','Away_WP_pre'的盒图如下：
+/><img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_orignal/boxplot_5.jpg" height="300" width="400" />
+
+从上图可以看出可以看出 ExpPts、HomewPpre 和 AwaywPp 的离散值比较小，EPA,airEPA,yacEPA的离散值比较大。
+
+#### 数据缺失的处理
+1 分析数据缺失的原因
+数据缺失的原因是多方面的，常见的缺失情况有：
+* 信息暂时无法获取。例如在医疗数据库中，并非所有病人的所有临床检验结果都能在给定的时间内得到，就致使一部分属性值空缺出来。
+* 信息被遗漏。可能是因为输入时认为不重要、忘记填写了或对数据理解错误而遗漏，也可能是由于数据采集设备的故障、存储介质的故障、传输媒体的故障、一些人为因素等原因而丢失。
+* 有些对象的某个或某些属性是不可用的。如一个未婚者的配偶姓名、一个儿童的固定收入状况等
+
+2 缺失值处理
+在可视化缺失值处理中，我们同样是选择'ExpPts','EPA','airEPA','yacEPA','Home_WP_pre','Away_WP_pre' 这五个属性的直方图来比较。其余的可视化图见[NFL/result/Number](https://github.com/Wenju-Huang/data_mini/tree/master/NFL/result/Number/)文件夹。
+- 将缺失部分剔除
+剔除掉缺失值的属性的直方图如下：
+<img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_orignal/histogram_5.jpg" height="300" width="400" >
+
+- 用最高频率值来填补缺失值
+用最高频率值来填补缺失值的直方图如下：
+<img src="https://github.com/Wenju-Huang/data_mini/raw/master/NFL/result/Number/number_filledbymaxium/histogram_5.jpg" height="300" width="400" >
+对比剔除缺失值的情况可发现，用最高频率值填补后，最高频的属性的频数变得更多，其直方图会更高。也就是说本填补方法的直方图的最高值比剔除缺失值的方法高，而直方图的其他部分和剔除的方法一样。
