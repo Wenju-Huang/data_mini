@@ -1,0 +1,23 @@
+-------------------------------Rules------------------------------
+R 1:201304000000 (Permit_Number) ==> 8 (Permit Type)  |support: 0.541, confident: 0.781, lift: 0.43
+R 2:201405000000 (Permit_Number) ==> 8 (Permit Type)  |support: 0.667, confident: 0.842, lift: 0.46
+R 3:1420130000000 (Record_ID) ==> 8 (Permit Type)  |support: 0.903, confident: 0.903, lift: 0.49
+R 4:201303000000 (Permit_Number) ==> 1420130000000 (Record_ID)  |support: 0.571, confident: 0.874, lift: 0.87
+R 5:201304000000 (Permit_Number) ==> 1420130000000 (Record_ID)  |support: 0.587, confident: 0.847, lift: 0.85
+R 6:201405000000 (Permit_Number) ==> 1420130000000 (Record_ID)  |support: 0.737, confident: 0.930, lift: 0.93
+R 7:1420130000000 (Record_ID) ==> 201405000000 (Permit_Number)  |support: 0.737, confident: 0.737, lift: 0.93
+R 8:8 (Permit Type), 5 (Permit Type) ==> 1420130000000 (Record_ID)  |support: 0.531, confident: 1.000, lift: 1.00
+R 9:5 (Permit Type), 1420130000000 (Record_ID) ==> 8 (Permit Type)  |support: 0.531, confident: 0.882, lift: 0.48
+R10:8 (Permit Type), 1 (Permit Type) ==> 1420130000000 (Record_ID)  |support: 0.573, confident: 1.000, lift: 1.00
+R11:1 (Permit Type), 1420130000000 (Record_ID) ==> 8 (Permit Type)  |support: 0.573, confident: 0.917, lift: 0.50
+R12:8 (Permit Type), 201301000000 (Permit_Number) ==> 1420130000000 (Record_ID)  |support: 0.585, confident: 1.000, lift: 1.00
+R13:201301000000 (Permit_Number), 1420130000000 (Record_ID) ==> 8 (Permit Type)  |support: 0.585, confident: 0.904, lift: 0.49
+R14:201304000000 (Permit_Number) ==> 8 (Permit Type), 1420130000000 (Record_ID)  |support: 0.541, confident: 0.781, lift: 0.86
+R15:8 (Permit Type), 201304000000 (Permit_Number) ==> 1420130000000 (Record_ID)  |support: 0.541, confident: 1.000, lift: 1.00
+R16:201304000000 (Permit_Number), 1420130000000 (Record_ID) ==> 8 (Permit Type)  |support: 0.541, confident: 0.922, lift: 0.50
+R17:8 (Permit Type), 201309000000 (Permit_Number) ==> 1420130000000 (Record_ID)  |support: 0.605, confident: 1.000, lift: 1.00
+R18:201309000000 (Permit_Number), 1420130000000 (Record_ID) ==> 8 (Permit Type)  |support: 0.605, confident: 0.917, lift: 0.50
+R19:201405000000 (Permit_Number) ==> 8 (Permit Type), 1420130000000 (Record_ID)  |support: 0.667, confident: 0.842, lift: 0.93
+R20:8 (Permit Type), 201405000000 (Permit_Number) ==> 1420130000000 (Record_ID)  |support: 0.667, confident: 1.000, lift: 1.00
+R21:8 (Permit Type), 1420130000000 (Record_ID) ==> 201405000000 (Permit_Number)  |support: 0.667, confident: 0.738, lift: 0.93
+R22:201405000000 (Permit_Number), 1420130000000 (Record_ID) ==> 8 (Permit Type)  |support: 0.667, confident: 0.905, lift: 0.49

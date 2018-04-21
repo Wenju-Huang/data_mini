@@ -1,0 +1,35 @@
+---------------------Frequent Itemset|Suppoort--------------------
+FI 1:  8 (Permit Type)|support:18337
+FI 2:  5 (Permit Type)|support:23696
+FI 3:  3 (Permit Type)|support:9082
+FI 4:  2 (Permit Type)|support:8371
+FI 5:  1 (Permit Type)|support:14512
+FI 6:  201301000000 (Permit_Number)|support:11879
+FI 7:  201302000000 (Permit_Number)|support:6393
+FI 8:  201303000000 (Permit_Number)|support:6534
+FI 9:  201304000000 (Permit_Number)|support:6934
+FI10:  201309000000 (Permit_Number)|support:9989
+FI11:  201405000000 (Permit_Number)|support:7922
+FI12:  1420130000000 (Record_ID)|support:10000
+FI13:  8 (Permit Type), 5 (Permit Type)|support:5311
+FI14:  8 (Permit Type), 1 (Permit Type)|support:5729
+FI15:  8 (Permit Type), 201301000000 (Permit_Number)|support:5850
+FI16:  8 (Permit Type), 201304000000 (Permit_Number)|support:5413
+FI17:  8 (Permit Type), 201309000000 (Permit_Number)|support:6048
+FI18:  8 (Permit Type), 201405000000 (Permit_Number)|support:6667
+FI19:  8 (Permit Type), 1420130000000 (Record_ID)|support:9028
+FI20:  5 (Permit Type), 1420130000000 (Record_ID)|support:6020
+FI21:  1 (Permit Type), 1420130000000 (Record_ID)|support:6249
+FI22:  201301000000 (Permit_Number), 1420130000000 (Record_ID)|support:6474
+FI23:  201303000000 (Permit_Number), 1420130000000 (Record_ID)|support:5709
+FI24:  201304000000 (Permit_Number), 1420130000000 (Record_ID)|support:5874
+FI25:  201309000000 (Permit_Number), 1420130000000 (Record_ID)|support:6596
+FI26:  201405000000 (Permit_Number), 1420130000000 (Record_ID)|support:7367
+FI27:  8 (Permit Type), 5 (Permit Type), 1420130000000 (Record_ID)|support:5311
+FI28:  8 (Permit Type), 1 (Permit Type), 1420130000000 (Record_ID)|support:5729
+FI29:  8 (Permit Type), 201301000000 (Permit_Number), 1420130000000 (Record_ID)|support:5850
+FI30:  8 (Permit Type), 201304000000 (Permit_Number), 1420130000000 (Record_ID)|support:5413
+FI31:  8 (Permit Type), 201309000000 (Permit_Number), 1420130000000 (Record_ID)|support:6048
+FI32:  8 (Permit Type), 201405000000 (Permit_Number), 1420130000000 (Record_ID)|support:6667
+------------------------------------------------------------------
+
