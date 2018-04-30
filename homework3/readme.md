@@ -26,4 +26,4 @@ DBSCAN 聚类
 ### 可视化方法
 由于本实验的样本市六维的，在二维或者三维的空间都不能很好地可视化，因此，我们考虑用LDA线性判别模型对原始数据进行投影后再可视化。考虑用LDA而不用PCA是因为我们希望投影后的数据在二维平面上有一定的区分度。对于训练集的数据，我们更加其label(Survived)计算出投影矩阵W，然后再投影；对于测试集的数据，我们直接用训练级的投影矩阵来投影。训练集和测试集数据的可视化如下图所示，左为训练集，右为测试集。
 
-<img src="https://github.com/Wenju-Huang/data_mini/homework3/raw/master/result/train.jpg" height="300" width="400" > <img src="https://github.com/Wenju-Huang/data_mini/homework3/raw/master/result/test.jpg" height="300" width="400" > 
+<img src="https://github.com/Wenju-Huang/data_mini/raw/master/homework3/result/train.jpg" height="300" width="400" > <img src="https://github.com/Wenju-Huang/data_mini/raw/master/homework3/result/test.jpg" height="300" width="400" > 
