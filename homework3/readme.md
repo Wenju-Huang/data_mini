@@ -39,5 +39,11 @@ Decision trees are commonly used in operations research, specifically in decisio
 <img src="https://github.com/Wenju-Huang/data_mini/raw/master/homework3/result/decision_tree.jpg" height="300" width="400" >
 
 对照决策树的分类结果分布和训练集的分布，我们可以看到两者的两个类别的分布大致一样，所以决策树能对大多数测试样本进行正确的分类。
+### SVM
+> SVM是最大间隔分类器，它能够在训练样本的空间上，找到一个分类平面，使得两类样本直接的最小距离尽可能地大。对于线性不可分的样本，运用核技巧，映射到高维空间，再在高维空间进行划分。
+本实验选用rbf核函数，方差默为1的svm，同样先在训练集进行训练然后再在测试集进行测试。测试的结果如下图所示。
 
+<img src="https://github.com/Wenju-Huang/data_mini/raw/master/homework3/result/svm.jpg" height="300" width="400" >
+
+从上图可以看出，相比于决策树，svm的结果分布图更接近于训练集的结果，因此，我们可以初步推断svm在本实验中的分类结果比决策树还要好。
 
